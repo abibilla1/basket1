@@ -12,7 +12,7 @@ const Basket = ({basket, plusProduct, minusProduct, deleteProduct}) => {
                     return <BasketItem deleteProduct={deleteProduct} minusProduct={minusProduct}
                                        plusProduct={plusProduct} key={item.id} {...item}/>
                 })}
-                <p className="text-right">Total {total}</p>
+                <p className="text-right">Total: {total}</p>
             </div>
 
         </section>

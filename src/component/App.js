@@ -100,7 +100,6 @@ class App extends Component {
                     </div>
                 </div>
                 <Basket deleteProduct={this.deleteProduct} minusProduct={this.minusProduct} plusProduct={this.plusProduct} basket={this.state.basket}/>
-
             </div>
         );
     }
